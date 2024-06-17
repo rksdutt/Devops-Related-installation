@@ -1,5 +1,7 @@
 Doing Great !
 
+It's a Java & Jenkins process & commands.
+
 sudo apt update
 
 sudo apt install openjdk-17-jre
