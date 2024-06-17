@@ -1,24 +1,14 @@
-Doing Great !
+Process we are going through to install and set-up jenkins server, Workstation on Ubuntu VPS. 
 
-It's a Java & Jenkins process & commands.
 
-sudo apt update
+Process we are going through to Install a Chef Server, Workstation, and Client on Ubuntu VPS Instances.
 
-sudo apt install openjdk-17-jre
 
-java -version
- 
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-  /etc/apt/sources.list.d/jenkins.list > /dev/null
 
-sudo apt-get update
+This file will help to go with the process. 
 
-sudo apt-get install jenkins
 
-sudo systemctl start jenkins.service
+thank you....
 
-sudo systemctl status jenkins
 
+happy learning.....
